@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuestionarios - IHM/UX</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Cuestionarios Interactivos</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="temas.html">Temas</a></li>
+        <li><a href="recursos.html">Recursos</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="cuestionarios.html">Cuestionarios</a></li>
+        <li><a href="plan_trabajo.html">Plan de Trabajo</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contenido">
+    <h2>Cuestionario Tema 1</h2>
+    <form id="quizForm">
+      <p>1. ¿Qué significa IHM?</p>
+      <input type="radio" name="q1" value="A"> Interfaz Hombre-Máquina<br>
+      <input type="radio" name="q1" value="B"> Internet Human Model<br>
+      <input type="radio" name="q1" value="C"> Interacción Hyper-Media<br>
+      <input type="radio" name="q1" value="D"> Inteligencia Humana Modificada<br>
+
+      <br>
+      <button type="button" onclick="checkAnswers()">Enviar</button>
+    </form>
+    <p id="resultado"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 - Sitio Educativo IHM/UX</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
